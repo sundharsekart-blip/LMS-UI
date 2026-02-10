@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Courses – Orion University LMS</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="sidebar-brand">
+          <div class="sidebar-logo" aria-hidden="true"></div>
+          <div>
+            Orion<br />
+            <span class="text-small sidebar-subtitle">University LMS</span>
+          </div>
+        </div>
+        <nav class="sidebar-nav">
+          <p class="sidebar-section-title">Student</p>
+          <ul class="sidebar-menu">
+            <li>
+              <a href="dashboard.html" class="sidebar-link">
+                <span class="icon">🏠</span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="courses.html" class="sidebar-link sidebar-link-active">
+                <span class="icon">📚</span>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="assignments.html" class="sidebar-link">
+                <span class="icon">📝</span>
+                <span>Assignments</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html" class="sidebar-link">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div>Academic Term: <strong>Spring 2026</strong></div>
+          <div>Credit load: 20</div>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="main-header">
+          <div class="header-left">
+            <div class="breadcrumb">
+              <span>Student</span><span>Courses</span>
+            </div>
+            <div class="header-title">My Courses</div>
+          </div>
+          <div class="header-right">
+            <div class="header-meta">
+              <div class="header-meta-name">Sundhar Sekar</div>
+              <div class="header-meta-role">B.Tech · Computer Science and Business Systems</div>
+            </div>
+            <div class="avatar" aria-hidden="true"></div>
+          </div>
+        </header>
+
+        <main class="main-content">
+          <header class="main-content-header">
+            <div>
+              <h1 class="section-title-decorated">Enrolled Courses</h1>
+              <p class="main-content-subtitle">
+                Browse all courses you are enrolled in this semester.
+              </p>
+            </div>
+            <div>
+              <span class="chip">
+                <span class="tag-dot"></span>
+                6 active · 2 completed
+              </span>
+            </div>
+          </header>
+
+          <section aria-label="Course list">
+            <div class="course-grid">
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Algorithms &amp; Data Structures</h2>
+                    <p class="course-card-code">CS302 · Core</p>
+                  </header>
+                  <p class="text-small">
+                    Analyze and design efficient algorithms using classic data structures and
+                    problem-solving patterns.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Dr. Ananya Patel</span>
+                  <span class="status-badge status-active">Active</span>
+                </footer>
+              </article>
+
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Database Systems</h2>
+                    <p class="course-card-code">CS304 · Core + Lab</p>
+                  </header>
+                  <p class="text-small">
+                    Foundations of relational databases, SQL, normalization, and transaction
+                    management.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Prof. Ravi Kumar</span>
+                  <a href="course-detail.html" class="status-badge status-active">View Course</a>
+                </footer>
+              </article>
+
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Operating Systems</h2>
+                    <p class="course-card-code">CS306 · Core</p>
+                  </header>
+                  <p class="text-small">
+                    Processes, scheduling, memory management, file systems, and concurrency
+                    fundamentals.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Dr. Meera Sharma</span>
+                  <span class="status-badge status-active">Active</span>
+                </footer>
+              </article>
+
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Software Engineering</h2>
+                    <p class="course-card-code">CS308 · Elective</p>
+                  </header>
+                  <p class="text-small">
+                    Requirements, design patterns, testing strategies, and collaborative engineering
+                    practices.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Prof. Lakshmi Nair</span>
+                  <span class="status-badge status-active">Active</span>
+                </footer>
+              </article>
+
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Machine Learning</h2>
+                    <p class="course-card-code">CS412 · Elective</p>
+                  </header>
+                  <p class="text-small">
+                    Supervised and unsupervised learning techniques with a focus on model
+                    evaluation.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Dr. Varun Iyer</span>
+                  <span class="status-badge status-active">Active</span>
+                </footer>
+              </article>
+
+              <article class="card card-elevated course-card">
+                <div>
+                  <header class="course-card-header">
+                    <h2 class="course-card-title">Computer Networks</h2>
+                    <p class="course-card-code">CS310 · Core</p>
+                  </header>
+                  <p class="text-small">
+                    Network architecture, protocols, routing, and the fundamentals of internet
+                    communication.
+                  </p>
+                </div>
+                <footer class="course-card-footer">
+                  <span class="course-instructor">Prof. Nikhil Rao</span>
+                  <span class="status-badge status-completed">Completed</span>
+                </footer>
+              </article>
+            </div>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <span>Orion University LMS</span>
+          <span>Courses overview · UI prototype</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>University LMS – Login</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <main class="login-page">
+      <section class="login-hero">
+        <div>
+          <h1 class="login-hero-title">
+            Welcome to <span>Orion University LMS</span>
+          </h1>
+          <p>
+            Access your courses, track your progress, submit assignments, and stay connected with
+            faculty – all in one modern learning workspace.
+          </p>
+        </div>
+        <div class="login-highlight-grid">
+          <article class="login-highlight-card">
+            <strong>Personalized dashboard</strong>
+            <p class="text-small">Stay on top of enrolled courses and deadlines at a glance.</p>
+          </article>
+          <article class="login-highlight-card">
+            <strong>Attendance insights</strong>
+            <p class="text-small">Monitor your overall attendance and course-wise presence.</p>
+          </article>
+          <article class="login-highlight-card">
+            <strong>Assignments hub</strong>
+            <p class="text-small">Review upcoming submissions and grades with a clean timeline.</p>
+          </article>
+          <article class="login-highlight-card">
+            <strong>Faculty collaboration</strong>
+            <p class="text-small">Reach instructors and TAs with structured course spaces.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="login-panel" aria-labelledby="login-title">
+        <div class="login-card">
+          <div class="login-card-inner">
+            <header class="login-card-header">
+              <h2 id="login-title" class="login-card-title">Sign in to Orion LMS</h2>
+              <p class="login-card-subtitle">
+                Use your university credentials to continue. This is a simulated UI – no data is
+                stored.
+              </p>
+            </header>
+
+            <form action="dashboard.html" method="get" class="login-form">
+              <div class="form-group">
+                <label for="username" class="form-label">University ID / Email</label>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  class="form-control"
+                  placeholder="e.g. sundhars.cb24@bitsathy.ac.in"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  placeholder="Enter your password"
+                  required
+                />
+              </div>
+
+              <div class="login-meta-row">
+                <label class="text-small">
+                  <input type="checkbox" /> Remember this device
+                </label>
+                <a href="#" class="text-small">Forgot password?</a>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block mt-075">
+                Login to Dashboard
+              </button>
+
+              <p class="login-footer-text">
+                By continuing you acknowledge this interface is for demonstration and UI design
+                purposes only.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+

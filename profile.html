@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile – Orion University LMS</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="sidebar-brand">
+          <div class="sidebar-logo" aria-hidden="true"></div>
+          <div>
+            Orion<br />
+            <span class="text-small sidebar-subtitle">University LMS</span>
+          </div>
+        </div>
+        <nav class="sidebar-nav">
+          <p class="sidebar-section-title">Student</p>
+          <ul class="sidebar-menu">
+            <li>
+              <a href="dashboard.html" class="sidebar-link">
+                <span class="icon">🏠</span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="courses.html" class="sidebar-link">
+                <span class="icon">📚</span>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="assignments.html" class="sidebar-link">
+                <span class="icon">📝</span>
+                <span>Assignments</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html" class="sidebar-link sidebar-link-active">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div>Academic Term: <strong>Spring 2026</strong></div>
+          <div>Student ID: 7376242CB155</div>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="main-header">
+          <div class="header-left">
+            <div class="breadcrumb">
+              <span>Student</span><span>Profile</span>
+            </div>
+            <div class="header-title">Student Profile</div>
+          </div>
+          <div class="header-right">
+            <div class="header-meta">
+              <div class="header-meta-name">Sundhar Sekar</div>
+              <div class="header-meta-role">B.Tech · Computer Science and Business Systems</div>
+            </div>
+            <div class="avatar" aria-hidden="true"></div>
+          </div>
+        </header>
+
+        <main class="main-content">
+          <header class="main-content-header">
+            <div>
+              <h1 class="section-title-decorated">Profile &amp; Academic Details</h1>
+              <p class="main-content-subtitle">
+                Information below is read-only in this prototype and represents sample data.
+              </p>
+            </div>
+          </header>
+
+          <section class="profile-wrapper" aria-label="Profile details">
+            <article class="card profile-card">
+              <div class="profile-avatar" aria-hidden="true"></div>
+              <div class="profile-name">Sundhar Sekar</div>
+              <div class="profile-meta">
+                Roll No: <strong>7376242CB155</strong><br />
+                Department of Computer Science and Business Systems
+              </div>
+              <div class="profile-tags">
+                <span class="chip">
+                  <span class="tag-dot"></span>
+                  Year II
+                </span>
+                <span class="chip">
+                  <span class="tag-dot"></span>
+                  Section B
+                </span>
+                <span class="chip">
+                  <span class="tag-dot"></span>
+                  Batch 2024-2028
+                </span>
+              </div>
+            </article>
+
+            <article class="card">
+              <h2 class="section-title">Personal information</h2>
+              <form class="profile-details-form" aria-label="Read-only profile form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="fullName" class="form-label">Full name</label>
+                    <input
+                      id="fullName"
+                      class="form-control"
+                      type="text"
+                      value="Sundhar Sekar"
+                      readonly
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="rollNumber" class="form-label">Roll number</label>
+                    <input
+                      id="rollNumber"
+                      class="form-control"
+                      type="text"
+                      value="7376242CB155"
+                      readonly
+                    />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="department" class="form-label">Department</label>
+                    <input
+                      id="department"
+                      class="form-control"
+                      type="text"
+                      value="Computer Science and Business Systems"
+                      readonly
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="year" class="form-label">Year</label>
+                    <input id="year" class="form-control" type="text" value="II" readonly />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email" class="form-label">University email</label>
+                    <input
+                      id="email"
+                      class="form-control"
+                      type="email"
+                      value="sundhars.cb24@bitsathy.ac.in"
+                      readonly
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone" class="form-label">Mobile number</label>
+                    <input
+                      id="phone"
+                      class="form-control"
+                      type="tel"
+                      value="+91-8072377510"
+                      readonly
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="address" class="form-label">Communication address</label>
+                  <input
+                    id="address"
+                    class="form-control"
+                    type="text"
+                    value="52,Pasteur Institute Staff Quarters,Sims Park,Coonoor,The Nilgiris"
+                    readonly
+                  />
+                </div>
+
+                <h2 class="section-title mt-11">Academic summary</h2>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="gpa" class="form-label">Cumulative GPA</label>
+                    <input id="gpa" class="form-control" type="text" value="8.7 / 10.0" readonly />
+                  </div>
+                  <div class="form-group">
+                    <label for="credits" class="form-label">Credits earned</label>
+                    <input
+                      id="credits"
+                      class="form-control"
+                      type="text"
+                      value="128 / 180"
+                      readonly
+                    />
+                  </div>
+                </div>
+              </form>
+            </article>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <span>Orion University LMS</span>
+          <span>Profile · UI prototype</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+

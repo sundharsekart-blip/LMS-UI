@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignments – Orion University LMS</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="sidebar-brand">
+          <div class="sidebar-logo" aria-hidden="true"></div>
+          <div>
+            Orion<br />
+            <span class="text-small sidebar-subtitle">University LMS</span>
+          </div>
+        </div>
+        <nav class="sidebar-nav">
+          <p class="sidebar-section-title">Student</p>
+          <ul class="sidebar-menu">
+            <li>
+              <a href="dashboard.html" class="sidebar-link">
+                <span class="icon">🏠</span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="courses.html" class="sidebar-link">
+                <span class="icon">📚</span>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="assignments.html" class="sidebar-link sidebar-link-active">
+                <span class="icon">📝</span>
+                <span>Assignments</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html" class="sidebar-link">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div>Academic Term: <strong>Spring 2026</strong></div>
+          <div>Pending submissions: 3</div>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="main-header">
+          <div class="header-left">
+            <div class="breadcrumb">
+              <span>Student</span><span>Assignments</span>
+            </div>
+            <div class="header-title">Assignments &amp; Submissions</div>
+          </div>
+          <div class="header-right">
+            <div class="header-meta">
+              <div class="header-meta-name">Sundhar Sekar</div>
+              <div class="header-meta-role">B.Tech · Computer Science and Business Systems</div>
+            </div>
+            <div class="avatar" aria-hidden="true"></div>
+          </div>
+        </header>
+
+        <main class="main-content">
+          <header class="main-content-header">
+            <div>
+              <h1 class="section-title-decorated">Upcoming &amp; Recent Assignments</h1>
+              <p class="main-content-subtitle">
+                This page is for UI demonstration purposes only – file upload is not functional.
+              </p>
+            </div>
+          </header>
+
+          <section class="assignments-list" aria-label="Assignments list">
+            <article class="assignment-row">
+              <div>
+                <div class="assignment-title">SQL Queries Lab 03</div>
+                <div class="assignment-meta">Course: Database Systems · CS304</div>
+              </div>
+              <div>
+                <div class="text-small">Due: 12 Feb 2026 · 23:59</div>
+                <span class="status-badge status-pending">Pending</span>
+              </div>
+              <div class="assignment-actions">
+                <div class="upload-field">
+                  <span>No file chosen</span>
+                  <span class="text-small">Choose file</span>
+                </div>
+                <button class="btn btn-primary mt-05">Submit</button>
+              </div>
+            </article>
+
+            <article class="assignment-row">
+              <div>
+                <div class="assignment-title">Process Management Worksheet</div>
+                <div class="assignment-meta">Course: Operating Systems · CS306</div>
+              </div>
+              <div>
+                <div class="text-small">Due: 09 Feb 2026 · 18:00</div>
+                <span class="status-badge status-late">Late</span>
+              </div>
+              <div class="assignment-actions">
+                <div class="upload-field">
+                  <span>os_assignment_v2.pdf</span>
+                  <span class="text-small">Replace</span>
+                </div>
+                <button class="btn btn-disabled mt-05" disabled>
+                  Submission closed
+                </button>
+              </div>
+            </article>
+
+            <article class="assignment-row">
+              <div>
+                <div class="assignment-title">Greedy Algorithms Problem Set</div>
+                <div class="assignment-meta">Course: Algorithms &amp; Data Structures · CS302</div>
+              </div>
+              <div>
+                <div class="text-small">Due: 15 Feb 2026 · 20:00</div>
+                <span class="status-badge status-pending">Pending</span>
+              </div>
+              <div class="assignment-actions">
+                <div class="upload-field">
+                  <span>No file chosen</span>
+                  <span class="text-small">Choose file</span>
+                </div>
+                <button class="btn btn-primary mt-05">Submit</button>
+              </div>
+            </article>
+
+            <article class="assignment-row">
+              <div>
+                <div class="assignment-title">Mini-project Proposal</div>
+                <div class="assignment-meta">Course: Software Engineering · CS308</div>
+              </div>
+              <div>
+                <div class="text-small">Submitted: 05 Feb 2026 · 16:42</div>
+                <span class="status-badge status-success">Submitted</span>
+              </div>
+              <div class="assignment-actions">
+                <div class="upload-field">
+                  <span>proposal_se_team3.pdf</span>
+                  <span class="text-small">Update</span>
+                </div>
+                <button class="btn btn-primary mt-05">Resubmit</button>
+              </div>
+            </article>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <span>Orion University LMS</span>
+          <span>Assignments · UI prototype</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+

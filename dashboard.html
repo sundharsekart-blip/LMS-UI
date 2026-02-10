@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Dashboard – Orion University LMS</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="sidebar-brand">
+          <div class="sidebar-logo" aria-hidden="true"></div>
+          <div>
+            Orion<br />
+            <span class="text-small sidebar-subtitle">University LMS</span>
+          </div>
+        </div>
+        <nav class="sidebar-nav">
+          <p class="sidebar-section-title">Student</p>
+          <ul class="sidebar-menu">
+            <li>
+              <a href="dashboard.html" class="sidebar-link sidebar-link-active">
+                <span class="icon">🏠</span>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="courses.html" class="sidebar-link">
+                <span class="icon">📚</span>
+                <span>Courses</span>
+              </a>
+            </li>
+            <li>
+              <a href="assignments.html" class="sidebar-link">
+                <span class="icon">📝</span>
+                <span>Assignments</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html" class="sidebar-link">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div>Academic Term: <strong>Spring 2026</strong></div>
+          <div>Last login: 09 Feb 2026 · 21:14</div>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="main-header">
+          <div class="header-left">
+            <div class="breadcrumb">
+              <span>Student</span><span>Dashboard</span>
+            </div>
+            <div class="header-title">Welcome back, Sundhar</div>
+          </div>
+          <div class="header-right">
+            <div class="header-meta">
+              <div class="header-meta-name">Sundhar Sekar</div>
+              <div class="header-meta-role">B.Tech · Computer Science and Business Systems · Year II</div>
+            </div>
+            <div class="avatar" aria-hidden="true"></div>
+          </div>
+        </header>
+
+        <main class="main-content">
+          <section aria-label="Dashboard summary">
+            <div class="dashboard-summary-grid">
+              <article class="card card-elevated">
+                <header class="card-header">
+                  <div>
+                    <div class="card-title">Enrolled Courses</div>
+                    <div class="card-meta">Current semester</div>
+                  </div>
+                  <span class="chip">
+                    <span class="tag-dot"></span>
+                    Active
+                  </span>
+                </header>
+                <div class="metric-value">6</div>
+                <div class="metric-label">Including 2 lab courses</div>
+              </article>
+
+              <article class="card card-elevated">
+                <header class="card-header">
+                  <div>
+                    <div class="card-title">Attendance</div>
+                    <div class="card-meta">Overall percentage</div>
+                  </div>
+                  <span class="status-badge status-active">On Track</span>
+                </header>
+                <div class="metric-value">92%</div>
+                <div class="metric-label">Minimum required: 75%</div>
+              </article>
+
+              <article class="card card-elevated">
+                <header class="card-header">
+                  <div>
+                    <div class="card-title">Assignments Due</div>
+                    <div class="card-meta">Next 7 days</div>
+                  </div>
+                  <span class="status-badge status-warning">3 upcoming</span>
+                </header>
+                <div class="metric-value">4</div>
+                <div class="metric-label">1 due within 24 hours</div>
+              </article>
+
+              <article class="card card-elevated">
+                <header class="card-header">
+                  <div>
+                    <div class="card-title">GPA</div>
+                    <div class="card-meta">Cumulative</div>
+                  </div>
+                  <span class="chip">
+                    <span class="tag-dot"></span>
+                    Dean's list
+                  </span>
+                </header>
+                <div class="metric-value">8.7</div>
+                <div class="metric-label">Last semester: 8.9</div>
+              </article>
+            </div>
+          </section>
+
+          <section class="dashboard-main-grid" aria-label="Detailed dashboard content">
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2 class="section-title-decorated">Today’s Schedule</h2>
+                </div>
+                <span class="card-meta">Tuesday · 10 Feb 2026</span>
+              </header>
+              <table class="list-table">
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Course</th>
+                    <th>Location</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>09:00 – 10:00</td>
+                    <td>Algorithms &amp; Data Structures</td>
+                    <td>CS-302</td>
+                    <td><span class="status-badge status-active">Ongoing</span></td>
+                  </tr>
+                  <tr>
+                    <td>11:00 – 12:00</td>
+                    <td>Database Systems</td>
+                    <td>Lab L2</td>
+                    <td><span class="status-badge status-pending">Upcoming</span></td>
+                  </tr>
+                  <tr>
+                    <td>14:00 – 15:00</td>
+                    <td>Operating Systems</td>
+                    <td>CS-210</td>
+                    <td><span class="status-badge status-pending">Upcoming</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+
+            <article class="card">
+              <header class="card-header">
+                <h2 class="section-title-decorated">Quick Stats</h2>
+              </header>
+              <ul class="syllabus-list">
+                <li>Average quiz score across all courses: 86%</li>
+                <li>Assignments submitted on time this term: 18 / 19</li>
+                <li>Courses with attendance &lt; 80%: 0</li>
+                <li>Unread announcements across courses: 3</li>
+              </ul>
+            </article>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+          <span>Orion University LMS</span>
+          <span>Student portal · UI prototype</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
